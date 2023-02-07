@@ -1,0 +1,7 @@
+name "examplelib"
+description "Library for the .di file initialization bug"
+authors "Lain"
+targetPath "out"
+targetType "library"
+sourcePaths "source"
+sourcePaths "exampleclass"

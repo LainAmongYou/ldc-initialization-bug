@@ -1,0 +1,8 @@
+name "ldc-initialization-bug"
+description "Shows the .di file initialization bug"
+targetPath "out"
+targetType "executable"
+workingDirectory "out"
+dependency ":examplelib" version="*"
+sourcePaths "source"
+subPackage "examplelib"
